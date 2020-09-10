@@ -2952,6 +2952,13 @@
                 network = libs.bitcoin.networks.phore;
                 setHdCoin(444);
             },
+                },
+		{
+            name: "VITAE - Vitae",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.vitae;
+                setHdCoin(444);
+            },
         },
         {
             name: "PINK - Pinkcoin",
