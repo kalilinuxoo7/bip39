@@ -1421,6 +1421,17 @@ libs.bitcoin.networks.vertcoin = {
   wif: 0x80,
 };
 
+libs.bitcoin.networks.vitae = {
+  messagePrefix: '\x18Darknet Signed Message:\n',
+  bip32: {
+    public: 0x022D2533,
+    private: 0x0221312B,
+  },
+  pubKeyHash: 0x47,
+  scriptHash: 0x0D,
+  wif:  0xD4,
+};
+
 libs.bitcoin.networks.vivo = {
   messagePrefix: '\x18DarkCoin Signed Message:\n',
   bip32: {
